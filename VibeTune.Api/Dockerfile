@@ -15,6 +15,6 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 COPY --from=build /app/out .
 
-EXPOSE 80
+EXPOSE 5000
 ENTRYPOINT ["dotnet", "VibeTune.Api.dll"]
 

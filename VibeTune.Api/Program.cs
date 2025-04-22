@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.WebHost.UseUrls("http://0.0.0.0:5000");
 var app = builder.Build();
 
 var moodToGenre = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
@@ -21,6 +22,10 @@ var genreToSongs = new Dictionary<string, List<string>>
     ["R&B"]      = new() { "All of Me - John Legend", "Adorn - Miguel", "Earned It - The Weeknd" }
 };
 
+// 👇 Route for homepage
+app.MapGet("/", () => "🎵 VibeTune Mood Recommender is running! Use /recommend?mood=happy etc.");
+
+// 👇 Route for recommendation
 app.MapGet("/recommend", ([FromQuery] string mood) =>
 {
     if (!moodToGenre.TryGetValue(mood, out var genre))
@@ -30,6 +35,10 @@ app.MapGet("/recommend", ([FromQuery] string mood) =>
     return Results.Ok(new { mood, genre, songs });
 });
 
-app.Run("http://0.0.0.0:5196");
+app.Run("http://0.0.0.0:5000");
+
+
+
+
 
 

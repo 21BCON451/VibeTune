@@ -24,3 +24,8 @@
 /workspaces/VibeTune/VibeTune.Api/obj/Debug/net8.0/VibeTune.Api.pdb
 /workspaces/VibeTune/VibeTune.Api/obj/Debug/net8.0/VibeTune.Api.genruntimeconfig.cache
 /workspaces/VibeTune/VibeTune.Api/obj/Debug/net8.0/ref/VibeTune.Api.dll
+/workspaces/VibeTune/VibeTune.Api/bin/Debug/net8.0/out/web.config
+/workspaces/VibeTune/VibeTune.Api/bin/Debug/net8.0/out/appsettings.Development.json
+/workspaces/VibeTune/VibeTune.Api/bin/Debug/net8.0/out/appsettings.json
+/workspaces/VibeTune/VibeTune.Api/bin/Debug/net8.0/out/VibeTune.Api.deps.json
+/workspaces/VibeTune/VibeTune.Api/bin/Debug/net8.0/out/VibeTune.Api.runtimeconfig.json

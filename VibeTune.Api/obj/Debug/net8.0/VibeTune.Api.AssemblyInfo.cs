@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VibeTune.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb9bf551b27fd66d618e42ff32410c3c4a219f6f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+009093a46ee0944ceca12721ad4ba66094e4cad1")]
 [assembly: System.Reflection.AssemblyProductAttribute("VibeTune.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VibeTune.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
